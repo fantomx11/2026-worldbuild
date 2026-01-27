@@ -59,11 +59,11 @@ Below is a list of some creatures that can fly:
 Fusce maximus lacus pulvinar augue venenatis, sed ullamcorper odio gravida. Maecenas nec dapibus elit, et faucibus enim. Nulla auctor viverra orci ac tempor. Mauris fringilla rhoncus nibh, quis volutpat velit vehicula et.
 
 <div class="sidenote">
-#### Sidenotes
+<h4>Sidenotes</h4>
 
-Sometimes we might have asides to include.
+<p>Sometimes we might have asides to include.</p>
 
-This is the kind of place we can put them.
+<p>This is the kind of place we can put them.</p>
 </div>
 
 ## More styles
