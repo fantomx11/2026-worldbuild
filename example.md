@@ -6,13 +6,14 @@ layout: default
 # Exemplar Arcanum: Lipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod erat. Duis eget est in velit laoreet rutrum. Suspendisse mollis sed libero eget dapibus. Mauris vestibulum, ante sit amet mollis facilisis, dolor leo congue augue, sit ame vestibulum purus neque quis diam. Nulla varius mollis finibus.
-{: .dropcap}
+{: .dropcap }
 
 Nam dolor mauris, condimentum a neque vitae, eleifend interdum dolor.
 
 
 This is the table label that labels the table
 {: .table-header }
+
 | Character Level | Feature |
 | --- | --- |
 | 3rd | Mauris vestibulum |
@@ -24,12 +25,12 @@ This is the table label that labels the table
 Donec nisl mi, dictum at sapien aliquet, efficitur iaculis odio. Morbi at semper nisl, in ultrices nibh. Nunc venenatis scelerisque erat, iaculis semper dolor fringilla sed.
 
 Text in boxes like these are meant to be read aloud or paraphrased to players as they first arrive at a location or given specific conditions described in the text.
-{: .readaloud}
+{: .readaloud }
 
 ### About sub-subs
 
 Sub-subs, h3s, or sections of sections of chapters perhaps
-{: .opening-flavour
+{: .opening-flavour }
 
 Fusce vehicula placerat ullamcorper. Praesent dui risus, interdum at eros sit amet, mattis volutpat nunc.
 
