@@ -1,9 +1,7 @@
 ---
-title: Example
+title: Exemplar Arcanum: Lipsum
 layout: default
 ---
-
-# Exemplar Arcanum: Lipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod erat. Duis eget est in velit laoreet rutrum. Suspendisse mollis sed libero eget dapibus. Mauris vestibulum, ante sit amet mollis facilisis, dolor leo congue augue, sit ame vestibulum purus neque quis diam. Nulla varius mollis finibus.
 {: .dropcap }
