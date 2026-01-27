@@ -1,3 +1,6 @@
+---
+title: CSS stylesheet
+---
 /* Cardo for headers. */
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 /* Open Sans for tables and box text. */
@@ -23,7 +26,7 @@ body {
   
   main {
     max-width: 80ch;
-    background: url('bg.png');
+    background: url('{{ site.baseurl }}/images/bg.png');
   }
  
    header {
@@ -61,7 +64,7 @@ body {
   }
   
   body {
-    background: url('bg.png');
+    background: url('{{ site.baseurl }}/images/bg.png');
   }
   
   header, footer, #sidebar {
