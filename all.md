@@ -2,8 +2,8 @@
 title: All Posts
 ---
 
-{% assign chronologicalPosts = site.posts | reversed %}
-{% assign postsByMonth = chronologicalPosts | group_by_exp: "post", "post.date | date: '%B'" %}
+{% assign sortedPosts = site.posts | sort: "date" %}
+{% assign postsByMonth = sortedPosts | group_by_exp: "post", "post.date | date: '%B'" %}
 
 {% for month in postsByMonth %}
   <section class="archive-month">
