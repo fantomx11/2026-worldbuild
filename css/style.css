@@ -1,6 +1,4 @@
----
-title: CSS stylesheet
----
+--- title: CSS stylesheet ---
 /* Cardo for headers. */
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 /* Open Sans for tables and box text. */
@@ -13,61 +11,74 @@ body {
 }
 
 @media screen {
+
   html,
   body {
     background: #ccc;
     display: flex;
     flex-direction: column;
-/*    min-height: 100vh;*/
-    margin: 0;    
+    /*    min-height: 100vh;*/
+    margin: 0;
     overflow: hidden;
     height: 100vh;
   }
-  
+
   main {
     width: 80ch;
     background: url('{{ site.baseurl }}/images/bg.png');
   }
- 
-   header {
+
+  header {
     /* No fixed height needed! */
     flex-shrink: 0;
     background-color: #f4f1ea;
   }
 
-    #page-container {
-      flex-grow: 1;
-      display: grid;
-      /* Sidebar is 250px, Content is 80ch, Gap is 3rem */
-      grid-template-columns: 250px 80ch;
-      gap: 3rem;
-      justify-content: center; /* Centers the whole group in the viewport */
-      align-items: start;
-      overflow-y: auto;
-      padding-top: 1em;
-    }
-    
-    #sidebar {
-      padding: 1em;
-      position: sticky;
-      top: 0; /* Sticks relative to the top of #page-container */
-      max-height: calc(100vh - 5rem); /* Prevents sidebar from being longer than screen */
-      overflow-y: auto;
-      background: #58180D;
-    }
+  footer {
+    /* No fixed height needed! */
+    flex-shrink: 0;
+    background-color: #f4f1ea;
+  }
 
-    a {
-      color: #58180D;
-    }
+  #page-container {
+    flex-grow: 1;
+    display: grid;
+    /* Sidebar is 250px, Content is 80ch, Gap is 3rem */
+    grid-template-columns: 250px 80ch;
+    gap: 3rem;
+    justify-content: center;
+    /* Centers the whole group in the viewport */
+    align-items: start;
+    overflow-y: auto;
+    padding-top: 1em;
+  }
 
-    #sidebar, #sidebar h1, #sidebar a {
-        color: #f4f1ea;
-    }
-  
-    #sidebar h1 {
-        font-size: 24px;
-    }
+  #sidebar {
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    /* Sticks relative to the top of #page-container */
+    max-height: calc(100vh - 5rem);
+    /* Prevents sidebar from being longer than screen */
+    overflow-y: auto;
+    background: #58180D;
+  }
+
+  a {
+    color: #58180D;
+  }
+
+  #sidebar,
+  #sidebar h1,
+  #sidebar a {
+    color: #f4f1ea;
+  }
+
+  #sidebar h1 {
+    font-size: 24px;
+  }
 }
+
 /* Setup for when we actually print it. */
 @media print {
   .pagebreak {
@@ -75,21 +86,24 @@ body {
     page-break-before: always;
     page-break-after: always;
   }
-  
+
   body {
     background: url('{{ site.baseurl }}/images/bg.png');
   }
-  
-  header, footer, #sidebar {
+
+  header,
+  footer,
+  #sidebar {
     display: none;
   }
-  
+
   @page {
     margin: 0;
   }
 
   /* */
-  main, #main-content {
+  main,
+  #main-content {
     column-count: 2;
     column-gap: 1cm;
   }
@@ -127,17 +141,20 @@ h6 {
   margin-bottom: 0.1em;
   page-break-after: avoid;
 }
+
 h1 {
   margin-bottom: 0.3em;
 }
+
 h3 {
   border-bottom: 2px solid #C9AD6A;
 }
 
 /* Indent any paragraph after first */
-p + p {
+p+p {
   text-indent: 1em;
 }
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -154,6 +171,7 @@ table {
   width: 100%;
   font-family: 'Open Sans', sans-serif;
 }
+
 table tr,
 table th,
 table td {
@@ -162,15 +180,19 @@ table td {
   text-align: left;
   font-size: 11pt;
 }
+
 table th {
   vertical-align: bottom;
 }
+
 table td {
   vertical-align: top;
 }
+
 tr:nth-child(even) {
   background: #f0dbb5;
 }
+
 th:nth-child(1),
 td:nth-child(1) {
   text-align: center;
@@ -181,10 +203,12 @@ blockquote {
   width: 100%;
   font-style: italic;
 }
+
 blockquote[cite]:after,
 blockquote cite:before {
   content: "— " attr(cite);
 }
+
 blockquote[cite]:after,
 blockquote cite {
   display: block;
@@ -235,11 +259,13 @@ label.table-header {
   line-height: 170%;
   font-size: 11pt;
 }
+
 .readaloud {
   background: #e4d0bf;
   border: solid #9C2B1B;
   border-width: 0 2px;
 }
+
 .sidenote {
   background: #e8dfd6;
   border: solid #000;
@@ -279,7 +305,8 @@ label.table-header {
 .rpg-layout {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Keeps footer at bottom on short 500ch posts */
+  min-height: 100vh;
+  /* Keeps footer at bottom on short 500ch posts */
   margin: 0;
 }
 
@@ -289,11 +316,12 @@ header {
   z-index: 100;
   border-bottom: 3px double var(--border-color);
   padding: 1rem 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
-  max-width: 80ch; /* Matches your content for alignment */
+  max-width: 80ch;
+  /* Matches your content for alignment */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -303,5 +331,6 @@ header nav {
 
 /* 3. The Content Area */
 main {
-  flex: 1; /* Pushes footer down */
+  flex: 1;
+  /* Pushes footer down */
 }

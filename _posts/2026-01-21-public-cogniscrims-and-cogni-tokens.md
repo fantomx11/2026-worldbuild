@@ -1,5 +1,8 @@
 ---
 title: Public Cogniscrims and Cogni-tokens
+categories:
+ - Lore
+ - Item
 ---
 
 Cogniscrims are installed at regular locations throughout the city. Anyone with a cogni-token, which is a special type of cognishard that is attuned to a specific individual. A cogni-token can be used to identify the person, and also access their account at the Imperial Bank.

@@ -1,5 +1,7 @@
 ---
 title: Mage College of Wargysdinun
+categories:
+ - Organization
 ---
 
 The Mage College of Wargysdinun is the most prestigious school of magic in the city. It is located in the Imperial Riding.

@@ -1,5 +1,7 @@
 ---
 title: Aberration- Flesh Nit
+categories:
+ - Bestiary
 ---
 
 A Flesh-nit is not a single creature, but a mass of low-intelligence, corrupted biomass that clings to surfaces in the Deep. It looks like a shifting, pallid mound of skin, tumorous growths, and exposed internal tissues. Its surface is constantly "breathing," covered in thousands of small, circular pores and shallow pits that weep oily, chemical-smelling fluids.

@@ -1,5 +1,7 @@
 ---
 title: Daveld Irner
+categories:
+ - Lore
 ---
 
 Daveld Irner was a case study performed by the Wargysdinun. He was in the legion assigned to a deep outpost. When his unit was supposed to be rotated out, the next unit found the outpost abandoned except for Daveld. Daveld was found living, but unresponsive.

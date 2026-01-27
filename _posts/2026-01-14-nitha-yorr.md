@@ -1,5 +1,7 @@
 ---
 title: Nitha'yorr
+categories:
+ - Bestiary
 ---
 
 Nitha'yorrs resemble tall slender humans with long limbs. Their skulls are smooth with no eyes, ears or noses, where their mouth should be are four retractable, needle-thin mandibles.

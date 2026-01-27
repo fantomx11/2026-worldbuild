@@ -1,5 +1,7 @@
 ---
 title: The Time Loop
+categories:
+ - Lore
 ---
 
 An integral part of the seal is the time loop. This loop lasts ten thousand years, and the people in Hawjio are not aware of it. However, the city is constantly sinking into the depths, and disappearing. So the city keeps building upward. As they build upward, more ancient ruins appear above them. These ruins, the ruins of the Ziigian civilization, are actually the ruins that have sunk into the depths.

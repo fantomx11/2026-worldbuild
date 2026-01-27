@@ -1,5 +1,7 @@
 ---
 title: Cracks In The Seal
+categories:
+ - Lore
 ---
 
 In the untold centuries since the founding of Hawjio, the residual planar effects below have caused seismic instability. The shifting of the foundations has weakened the seal, allowing the planar effects to increase.

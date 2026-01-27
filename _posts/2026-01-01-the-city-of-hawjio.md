@@ -1,5 +1,7 @@
 ---
 title: The City of Hawjio
+categories:
+ - Overview
 ---
 
 The city of Hawjio is vast. It is built on a continent that is also called Hawjio. The government of the city is The Empire, ruled for generations by the House of Vasofith. However, the city is too vast for the Empire to maintain control on most of it directly. Instead the city is divided into ridings. Officially, each riding is ruled by a noble house, but this is often not the case in actuality. The Empire is aware that many ridings are actually ruled by guilds, religious authorities, or even criminal syndicates, but as long as taxes are paid, and any unrest and crime is kept within the riding, the Empire does not care.

@@ -1,5 +1,7 @@
 ---
 title: The Dwarves
+categories:
+ - Organization
 ---
 
 Dwarves are known for their metal works and smithing. They are also the best at creating mechanical devices. The most incredible of all Dwarven inventions are automatic servants. 

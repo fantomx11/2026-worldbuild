@@ -1,28 +1,31 @@
 <html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css" />
-  </head>
 
-  <!-- class hyphenate to let Hyphenator hyphenate.. -->
-  <body class="rpg-layout">
-    <header class="site-header">
-      <nav class="nav-container">
-        <div class="logo">The Setting Name</div>
-        <ul class="nav-links">
-          <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-          <li><a href="{{ site.baseurl }}/all.html">All Posts</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css" />
+</head>
 
-    <div id="page-container">
+<!-- class hyphenate to let Hyphenator hyphenate.. -->
+
+<body class="rpg-layout">
+  <header class="site-header">
+    <nav class="nav-container">
+      <div class="logo">The Setting Name</div>
+      <ul class="nav-links">
+        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+        <li><a href="{{ site.baseurl }}/all.html">All Posts</a></li>
+        <li><a href="{{ site.baseurl }}/categories/">All Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="page-container">
 
     <aside id="sidebar">
       <h1>Recent Posts</h1>
       <ul>
         {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </aside>
@@ -32,12 +35,11 @@
       {{ content }}
     </main>
 
-    </div>
+  </div>
 
-    <footer class="site-footer">
-      <p>© 2026 • The Chronicler</p>
-      <div class="social-icons">...</div>
-    </footer>
-  </body>
+  <footer class="site-footer">
+    <p>© 2026 fantomx11</p>
+  </footer>
+</body>
 
 </html>

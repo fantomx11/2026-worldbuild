@@ -1,5 +1,8 @@
 ---
 title: Noble Houses-High Council of Nobles
+categories:
+ - Organization
+ - Noble House
 ---
 
 [Need a cool name for this like Landsraad]
