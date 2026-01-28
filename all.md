@@ -1,5 +1,6 @@
 ---
 title: All Posts
+permalink: /posts/
 ---
 
 {% assign sortedPosts = site.posts | sort: "date" %}

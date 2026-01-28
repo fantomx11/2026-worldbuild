@@ -17,7 +17,7 @@ permalink: /categories/
   <h2 id="{{ category[0] | slugify }}">{{ category[0] | capitalize }}</h2>
   <ul>
     {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
