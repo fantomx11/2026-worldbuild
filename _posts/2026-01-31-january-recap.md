@@ -1,10 +1,10 @@
 ---
-title: "January Recoap"
+title: "January Recap"
 categories:
  - Recap
 ---
 
-So, this will be a bit longer. The setting has changed quite a bit from how it started. So I thought I would reconcile all the entries and produce a single, consistent article detailing what I have so far.
+So, this will be a bit longer. The setting has changed quite a bit from how it started. So I thought I would recap the most important aspects of the city that I developed this month.
 
 ## The City of Hawjio
 
