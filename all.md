@@ -17,6 +17,7 @@ permalink: /posts/
     {% when "June" %}{% assign subtitle = "" %}
     {% when "July" %}{% assign subtitle = "" %}
     {% when "August" %}{% assign subtitle = "" %}
+    {% when "September" %}{% assign subtitle = "" %}
     {% when "October" %}{% assign subtitle = "" %}
     {% when "November" %}{% assign subtitle = "" %}
     {% when "December" %}{% assign subtitle = "" %}
@@ -36,3 +37,4 @@ permalink: /posts/
   </section>
 
 {% endfor %}
+
