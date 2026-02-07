@@ -1,5 +1,7 @@
 ---
 title: "More on O'nithe (The Trade)"
+categories:
+ - NPC
 ---
 
 A transaction with [O'nith](https://fantomx11.github.io/2026-worldbuild/2026/02/05/o-nithe-the-merchant-of-forgotten-memories.html) usually starts by a person seeking specific lost knowledge. O'nithe, if they have a memory that can convey this knowledge, will propose a trade in concepts.
