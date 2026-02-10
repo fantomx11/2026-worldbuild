@@ -51,7 +51,7 @@
     <input type="hidden" id="page-url" value="{{ page.url }}">
     <input type="text" id="user-name" placeholder="Your Name" required style="width: 100%; margin-bottom: 10px;"><br>
     <textarea id="user-comment" placeholder="Your Comment" required style="width: 100%; height: 100px; margin-bottom: 10px;"></textarea><br>
-    <button type="submit">Submit Comment</button>
+    <button id="submit-btn" type="submit">Submit Comment</button>
   </form>
   <div id="response-msg"></div>
 </div>
@@ -92,13 +92,7 @@
       console.warn("Honeypot filled. Submission ignored.");
       return;
     }
-
-    // 2. Time-to-submit check: If submitted in < 4 seconds, it's a bot
-    if (Date.now() - loadTime < 4000) {
-      document.getElementById('response-msg').innerText = "Please wait a moment before submitting.";
-      return;
-    }
-
+    
     const data = {
       page: currentPage,
       name: document.getElementById('user-name').value,
